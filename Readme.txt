@@ -20,4 +20,4 @@ Next JS
         foldername shhould be inside [] -> [productid]
     
     5 Nested Dynamic Routes -> 
-        
+        same as above  [productsid] -> reviews -> [reviewwsid] -> page.tsx
