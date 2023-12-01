@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next JS
 
-## Getting Started
+1 . -> Comtrol Floe 
+    1 npm run dev -> layout.tsx-> root
 
-First, run the development server:
+2. Routing
+    in this routing is folder or a file in src folder inside app folder and router file or route folder and its name should be page.tsx or page.js
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    1 Default Route  -> main app folder has page.tsx which is default route
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    2 UserDefined Route -> inside app folder , many folders with page.tsx file are userDefined Route
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   3 Nested Routes -> e.g localhost:3000/blog/second 
+   -> create nested folder structure and apply same page.tsx for each routr(Folder)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   4 Dynamic Routes -> eg.->  Products and lisitng page 3000/products -> display lising of products
+    
+        3000:/products/id -> displays details of thst product
 
-## Learn More
+        foldername shhould be inside [] -> [productid]
+    
+    5 Nested Dynamic Routes -> 
+        same as above  [productsid] -> reviews -> [reviewwsid] -> page.tsx
+    
+    6 Authentication Routes ( Route Gropups) ->
+         placed all authentication routes in same folder.
+         syntax -> (routeGroup Folder Name) e.g (auth)
 
-To learn more about Next.js, take a look at the following resources:
+3 . Layouts
+    -> layout.tsx in app is root and responisble to render all components ui;
+    header -> content -> footer (layout)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    3.1 Nested Layouts
+    3.2 Nested Layouts
+    3.3 Group Layouts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Meta Deta
+    -> 

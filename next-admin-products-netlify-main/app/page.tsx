@@ -38,7 +38,7 @@ export default async function Home() {
               <tr key={product._id}>
                 <td>
                   <Image
-                    // src={product.image}
+                    src=""
                     alt={product.name}
                     width={80}
                     height={80}
