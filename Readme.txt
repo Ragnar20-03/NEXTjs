@@ -21,3 +21,18 @@ Next JS
     
     5 Nested Dynamic Routes -> 
         same as above  [productsid] -> reviews -> [reviewwsid] -> page.tsx
+    
+    6 Authentication Routes ( Route Gropups) ->
+         placed all authentication routes in same folder.
+         syntax -> (routeGroup Folder Name) e.g (auth)
+
+3 . Layouts
+    -> layout.tsx in app is root and responisble to render all components ui;
+    header -> content -> footer (layout)
+
+    3.1 Nested Layouts
+    3.2 Nested Layouts
+    3.3 Group Layouts
+
+4. Meta Deta
+    -> 
